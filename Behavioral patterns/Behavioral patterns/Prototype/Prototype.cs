@@ -11,6 +11,6 @@ public class Prototype
     
     public Prototype Clone()
     {
-        return this;
+        return new Prototype(Id);
     }
 }
